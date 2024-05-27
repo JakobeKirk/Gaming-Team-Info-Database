@@ -1,0 +1,7 @@
+SELECT TOP (1000) [Build_ID]
+      ,[playerName]
+      ,[Build]
+      ,[gamesPlayedPerBuild]
+      ,[totalPointsByBuild]
+      ,[PPG_byBuild]
+  FROM [RIP_Academy777].[dbo].[buildStats]
